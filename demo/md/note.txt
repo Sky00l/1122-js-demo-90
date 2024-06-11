@@ -1,0 +1,5 @@
+# git config --global user.email "207410290@gms.tku.edu.tw"
+
+# git config --global user.name "Sky00l"
+
+git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2024-02-20"
