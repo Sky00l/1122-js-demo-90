@@ -4,7 +4,7 @@ import { _supabase } from './clientSupabase_90.js';
 
 let products_xx = [];
 
-const getProductsSupabase_xx = async () => {
+const getProductsSupabase_xx = async() => {
     try {
         let { data, error } = await _supabase.from('products_90').select('*');
         console.log('product data', data);
@@ -42,8 +42,9 @@ const displayProducts = (products) => {
     productContainer.innerHTML = productsContent;
 };
 
+
 companyBtns.forEach((btn) => {
-    btn.addEventListener('click', async (e) => {
+    btn.addEventListener('click', async(e) => {
         const companyName = e.currentTarget.dataset.id
         console.log('companyName', companyName);
         if (companyName === 'all') {
@@ -69,7 +70,7 @@ companyBtns.forEach((btn) => {
 
 })
 
-document.addEventListener('DOMContentLoaded', async () => {
+document.addEventListener('DOMContentLoaded', async() => {
     products_xx = await getProductsSupabase_xx();
     displayProducts(products_xx);
 });
