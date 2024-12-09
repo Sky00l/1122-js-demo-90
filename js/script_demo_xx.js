@@ -21,7 +21,7 @@ function showdemo(week) {
             p.innerHTML = `<iframe src="./demo/w06_task_90/w06_menu_90/index.html" width="100%" height="100%" />`;
             break;
         case 7:
-            p.innerHTML = `<iframe src="./demo/w13_90/menusupa.html" width="100%" height="100%" />`;
+            p.innerHTML = `<iframe src="./demo/w13_90/menuSupa.html" width="100%" height="100%" />`;
             break;
         case 8:
             p.innerHTML = `<iframe src="./demo/w15_cocktaildb/cocktaildb_90/index.html" width="100%" height="100%" />`;
