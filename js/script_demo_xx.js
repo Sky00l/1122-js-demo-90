@@ -29,5 +29,8 @@ function showdemo(week) {
         case 9:
             p.innerHTML = `<iframe src="./demo/w15_products_90/products_supa_xx.html" width="100%" height="100%" />`;
             break;
+        case 10:
+            p.innerHTML = `<iframe src="./jsdemo_90.pdf" width="100%" height="100%" />`;
+            break;
     }
 }
